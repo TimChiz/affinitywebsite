@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decluttering Services - Clean Affinity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="service-page.css">
+    <link rel="icon" type="png" href="logo.png">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header id="navbar">
+        <nav>
+            <img src="logo.png" alt="Clean Affinity Logo" class="logo">
+            
+            <div class="nav-links" id="navLinks">
+                <span class="close-menu" id="closeMenu">&#10005;</span>
+                <p><a href="index.html#home">Home</a></p>
+                <p><a href="index.html#about">About</a></p>
+                <p><a href="index.html#services">Services</a></p>
+                <p><a href="faq.html">FAQ</a></p>
+                <p><a href="index.html#contact-info">Contact</a></p>
+                
+                <div class="social-icons">
+                   <a href="https://www.instagram.com/cleanaffinityzw?igsh= OGNiazU4eGhsamZ6&utm_source=gr" target="_blank" class="instagram" title="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+                </a>
+        
+                <a href="https://www.tiktok.com/@clean.affinity?_t=ZM -90TvBDVJMeC&_r=1" target="_blank" class="tiktok" title="TikTok">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+                </a>
+            </div>
+            
+            <div class="hamburger-menu" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="service-hero" style="background-image: url('Decluttering.jpg');">
+        <h1>Decluttering Services</h1>
+    </div>
+
+    <!-- Service Content -->
+    <div class="service-content">
+        <a href="index.html#services" class="back-link">← Back to Services</a>
+
+        <!-- Intro -->
+        <div class="service-intro">
+            <p>Transform your chaotic space into an organized haven with our professional decluttering services. We help you sort, organize, and create functional spaces that make your life easier and more efficient.</p>
+        </div>
+
+        <!-- What's Included -->
+        <div class="service-section whats-included">
+            <h2>What's Included</h2>
+            <ul>
+                <li>Assessment of your space and organizational needs</li>
+                <li>Sorting items into keep, donate, and discard categories</li>
+                <li>Organizing closets, cabinets, and storage areas</li>
+                <li>Creating functional storage solutions</li>
+                <li>Labeling and categorizing items</li>
+                <li>Donation coordination and removal</li>
+                <li>Trash and recycling disposal</li>
+                <li>Space optimization recommendations</li>
+                <li>Follow-up maintenance tips</li>
+            </ul>
+        </div>
+
+        <!-- Why Choose This Service -->
+        <div class="service-section">
+            <h2>Why Choose Our Decluttering Service?</h2>
+            <div class="service-features">
+                <div class="feature-item">
+                    <h3>Non-Judgmental Approach</h3>
+                    <p>We create a supportive environment and work at your comfort level.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Customized Solutions</h3>
+                    <p>Every space is unique—we tailor our approach to your lifestyle and needs.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Increased Productivity</h3>
+                    <p>An organized space reduces stress and helps you find what you need quickly.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Long-Term Results</h3>
+                    <p>We teach you organizational systems that are easy to maintain.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="service-section">
+            <h2>How It Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Initial Consultation</h3>
+                    <p>We discuss your goals and assess your space</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Create a Plan</h3>
+                    <p>Develop a customized decluttering strategy</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Sort & Organize</h3>
+                    <p>Work together to declutter and organize your space</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Maintain & Enjoy</h3>
+                    <p>Implement systems for lasting organization</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing -->
+        <div class="service-section pricing-box">
+            <h2>Pricing</h2>
+            <p>Decluttering services are priced based on the size of the area, amount of clutter, and time required. We offer hourly rates and package deals for larger projects.</p>
+            <p><strong>Contact us for a free consultation and personalized quote!</strong></p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="cta-buttons">
+            <a href="https://wa.me/263772672774?text=Hi%2C%20I'm%20interested%20in%20Deep%20Cleaning%20services" class="cta-button cta-primary" target="_blank">Book free consultation via WhatsAppp</a>
+            <a href="tel:+263772672774" class="cta-button cta-primary">Call us now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Clean Affinity. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const closeMenu = document.getElementById('closeMenu');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+
+        // Navbar background on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+</body>
+</html>

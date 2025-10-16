@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Clean Affinity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="service-page.css">
+    <link rel="icon" type="png" href="logo.png">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header id="navbar">
+        <nav>
+            <img src="logo.png" alt="Clean Affinity Logo" class="logo">
+            
+            <div class="nav-links" id="navLinks">
+                <span class="close-menu" id="closeMenu">&#10005;</span>
+                <p><a href="index.html#home">Home</a></p>
+                <p><a href="index.html#about">About</a></p>
+                <p><a href="index.html#services">Services</a></p>
+                <p><a href="faq.html">FAQ</a></p>
+                <p><a href="index.html#contact-info">Contact</a></p>
+                
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/cleanaffinityzw?igsh= OGNiazU4eGhsamZ6&utm_source=gr" target="_blank" class="instagram" title="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+                </a>
+        
+                <a href="https://www.tiktok.com/@clean.affinity?_t=ZM -90TvBDVJMeC&_r=1" target="_blank" class="tiktok" title="TikTok">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+                </a>
+                </div>
+            </div>
+            
+            <div class="hamburger-menu" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="service-hero" style="background-image: url('Pricing.jpg'); background-color: #2d89ef;">
+        <h1>Pricing Information</h1>
+    </div>
+
+    <!-- Pricing Content -->
+    <div class="service-content">
+        <a href="index.html#services" class="back-link">← Back to Services</a>
+
+        <div class="service-intro">
+            <p><strong>Personalized. Transparent. Fair.</strong></p>
+            <p>At Clean Affinity, every space is unique — so our pricing is too. We follow a three-step process to ensure you get the most accurate and fair quote possible.</p>
+        </div>
+
+        <div class="service-section">
+            <h2>How Our Pricing Works</h2>
+            
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Site Assessment</h3>
+                    <p>We visit your location to understand the scope of work and measure the space.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Consultation</h3>
+                    <p>We discuss your requirements, preferences, cleaning goals, and any special requests.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Custom Quote</h3>
+                    <p>Based on the assessment, we provide a personalized, transparent quotation with no hidden fees.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service-section">
+            <h2>What Affects Your Quote?</h2>
+            <div class="service-features">
+                <div class="feature-item">
+                    <h3>Size of Space</h3>
+                    <p>Square footage and number of rooms directly impact pricing.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Service Type</h3>
+                    <p>Deep cleaning requires more time than regular maintenance cleaning.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Frequency</h3>
+                    <p>Regular weekly or monthly services often receive discounted rates.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Current Condition</h3>
+                    <p>Heavily soiled spaces may require additional time and resources.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service-section pricing-box">
+            <h2>Ready for Your Free Quote?</h2>
+            <p>Contact us today to schedule a no-obligation site visit and consultation. We'll provide a detailed, transparent quote tailored to your specific needs.</p>
+            <p><strong>Fair pricing. Quality service. Complete satisfaction.</strong></p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="cta-buttons">
+            <a href="https://wa.me/263772672774?text=Hi%2C%20I'm%20interested%20in%20Deep%20Cleaning%20services" class="cta-button cta-primary" target="_blank">Book free consultation via WhatsApp</a>
+            <a href="tel:+263772672774" class="cta-button cta-primary">Call us now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Clean Affinity. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const closeMenu = document.getElementById('closeMenu');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+
+        // Navbar background on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+</body>
+</html>

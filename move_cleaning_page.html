@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move-In/Move-Out Cleaning - Clean Affinity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="service-page.css">
+    <link rel="icon" type="png" href="logo.png">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header id="navbar">
+        <nav>
+            <img src="logo.png" alt="Clean Affinity Logo" class="logo">
+            
+            <div class="nav-links" id="navLinks">
+                <span class="close-menu" id="closeMenu">&#10005;</span>
+                <p><a href="index.html#home">Home</a></p>
+                <p><a href="index.html#about">About</a></p>
+                <p><a href="index.html#services">Services</a></p>
+                <p><a href="index.html#FAQS">FAQ</a></p>
+                <p><a href="index.html#contact-info">Contact</a></p>
+                
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/cleanaffinityzw?igsh= OGNiazU4eGhsamZ6&utm_source=gr" target="_blank" class="instagram" title="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+                </a>
+        
+                <a href="https://www.tiktok.com/@clean.affinity?_t=ZM -90TvBDVJMeC&_r=1" target="_blank" class="tiktok" title="TikTok">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+                </a>
+                </div>
+            </div>
+            
+            <div class="hamburger-menu" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="service-hero" style="background-image: url('Moving.jpg');">
+        <h1>Move-In/Move-Out Cleaning</h1>
+    </div>
+
+    <!-- Service Content -->
+    <div class="service-content">
+        <a href="index.html#services" class="back-link">← Back to Services</a>
+
+        <!-- Intro -->
+        <div class="service-intro">
+            <p>Start fresh in your new home or leave your old place spotless with our move-in/move-out cleaning services. Perfect for tenants, homeowners, and landlords who want properties in pristine condition.</p>
+        </div>
+
+        <!-- What's Included -->
+        <div class="service-section whats-included">
+            <h2>What's Included</h2>
+            <ul>
+                <li>Complete top-to-bottom cleaning of all rooms</li>
+                <li>Inside cabinets, closets, and drawers</li>
+                <li>Appliance cleaning (oven, refrigerator, dishwasher)</li>
+                <li>Bathroom deep cleaning and sanitization</li>
+                <li>Kitchen counters, sinks, and backsplash cleaning</li>
+                <li>Baseboards, walls, and door frame wiping</li>
+                <li>Window and window sill cleaning</li>
+                <li>Floor cleaning (all surfaces)</li>
+                <li>Light fixture and ceiling fan cleaning</li>
+                <li>Trash removal</li>
+            </ul>
+        </div>
+
+        <!-- Why Choose This Service -->
+        <div class="service-section">
+            <h2>Why Choose Our Move Cleaning?</h2>
+            <div class="service-features">
+                <div class="feature-item">
+                    <h3>Get Your Deposit Back</h3>
+                    <p>For tenants: Professional cleaning helps ensure you receive your full security deposit.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Ready for New Tenants</h3>
+                    <p>For landlords: Prepare your property quickly for the next occupants.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Fresh Start</h3>
+                    <p>Move into a sparkling clean home without the stress of cleaning yourself.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Save Time & Energy</h3>
+                    <p>Moving is exhausting—let us handle the cleaning while you focus on settling in.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="service-section">
+            <h2>How It Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Book in Advance</h3>
+                    <p>Contact us with your move date and property details</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Get a Quote</h3>
+                    <p>We provide pricing based on property size and condition</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Deep Clean</h3>
+                    <p>Our team thoroughly cleans the empty property</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Final Inspection</h3>
+                    <p>Walkthrough to ensure everything is spotless</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing -->
+        <div class="service-section pricing-box">
+            <h2>Pricing</h2>
+            <p>Move-in/move-out cleaning pricing depends on the size of the property, number of rooms, and current condition. We offer transparent, competitive rates with no hidden fees.</p>
+            <p><strong>Get your free quote today!</strong></p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="cta-buttons">
+            <a href="https://wa.me/263772672774?text=Hi%2C%20I'm%20interested%20in%20Deep%20Cleaning%20services" class="cta-button cta-primary" target="_blank">Book free consultation via WhatsApp</a>
+            <a href="tel:+263772672774" class="cta-button cta-primary">Call us now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Clean Affinity. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const closeMenu = document.getElementById('closeMenu');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+
+        // Navbar background on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+</body>
+</html>
